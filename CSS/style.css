@@ -3,9 +3,8 @@
     padding: 0;
 }
 .img {
-    width: 100%;
     height: 20% auto !important;
-    position: relative;
+    position:relative;
    
 }
 #heading{
@@ -29,6 +28,31 @@ p{
 }
 #content{
     position: absolute;
-    top: auto;
-    bottom: auto;
+    top: 20%;
+    left: 25%;
+    color: white;
+
+}
+.portfolio img{
+    width: 20%;
+    height: auto;
+    margin: 10px;
+    display: inline-block;
+}
+.row {
+    margin-top: 2%;
+
+}
+.btn-dark{
+    width: 30%;
+    text-align: center;
+    height: auto;
+}
+#contact{
+   
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    color: white;
+    background:transparent !important;
 }

@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.img {
+    width: 100%;
+    height: 20% auto !important;
+    position: relative;
+   
+}
+#heading{
+    font-weight: 1200;
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+    top: 40%;
+    left:33%;
+
+    
+}
+.col-md-12{
+    margin-top: 30px;
+}
+body,html {
+    height: 100%;
+}
+p{
+    margin-top: 20px;
+}
+#content{
+    position: absolute;
+    top: auto;
+    bottom: auto;
+}

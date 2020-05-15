@@ -8,7 +8,7 @@ function validate(){
         alert("Kindly fill in all inputs if you want to contact us.");
     }
     else{
-        alert("Thank you for contacting us. Your response has been received.We will get back to you in a few.");
+        alert( name+ " Thank you for contacting us. Your response has been received.We will get back to you in a few.");
     }
 }
 $(document).ready(function(){
@@ -40,6 +40,10 @@ $('#imageContent3').click(function(){
     $(this).fadeOut();
     $('#image3').fadeIn();
 })
+/*Mouse Click*/
+$(".mouse_click").mouseover(function(){
+    $(this).effect( "shake", {times:4}, 1000 );
+ });
 /*PORTFOLIO*/
 $("#work1").mouseover(function(){
     $("#head1").show();

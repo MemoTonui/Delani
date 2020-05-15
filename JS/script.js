@@ -4,7 +4,7 @@ function validate(){
     var email = document.getElementById('email').value;
     var comments = document.getElementById('comments').value;
 
-    if(name == "" || email=="" || comments==" "){
+    if(name == "" || email=="" || comments==""){
         alert("Kindly fill in all inputs if you want to contact us.");
     }
     else{
@@ -13,19 +13,86 @@ function validate(){
 }
 $(document).ready(function(){
    $("#image1").click(function(){
-        $(this).hide();
-        $(".imageContent").hide();
-        $("#imageContent1").toggle();
+        $(this).fadeOut();
+        
+        $("#imageContent1").fadeIn();
+   });
+   $('#imageContent1').click(function(){
+       $(this).fadeOut();
+       $('#image1').fadeIn();
    });
    $("#image2").click(function(){
-        $(this).hide();
-        $(".imageContent").hide();
-        $("#imageContent2").toggle();
+        $(this).fadeOut();
+    
+        $("#imageContent2").fadeIn();
 });
+$('#imageContent2').click(function(){
+    $(this).fadeOut();
+    $('#image2').fadeIn();
+});
+
     $("#image3").click(function(){
-        $(this).hide();
-        $(".imageContent").hide();
-        $("#imageContent3").toggle();
+        $(this).fadeOut();
+        
+        $("#imageContent3").fadeIn();
+});
+$('#imageContent3').click(function(){
+    $(this).fadeOut();
+    $('#image3').fadeIn();
+})
+/*PORTFOLIO*/
+  $('#work1').hover(function(){
+      $(this).animate({
+          opacity:'toggle',
+          position:'relative'
+      })
+      $('#head1').show();
+  });
+  $('#work2').hover(function(){
+    $(this).animate({
+        opacity:'toggle',
+        position:'relative'
+    })
+    $('#head1').show();
+});
+$('#work3').hover(function(){
+    $(this).animate({
+        opacity:'toggle',
+        position:'relative'
+    })
+    $('#head1').show();
+});
+$('#work4').hover(function(){
+    $(this).animate({
+        opacity:'toggle',
+        position:'relative'
+    })
+    $('#head1').show();
+});
+$('#work5').hover(function(){
+    $(this).animate({
+        opacity:'toggle',
+        position:'relative'
+    })
+    $('#head1').show();
+});
+$('#work6').hover(function(){
+    $(this).animate({
+        opacity:'toggle',
+        position:'relative'
+    })
+    $('#head1').show();
+});
+$('#work7').hover(function(){
+    $(this).animate({
+        opacity:'toggle',
+        position:'relative'
+    })
+    $('#head1').show();
+});
+$('#work8').hover(function(){
+    $(this).zoomIn();
+    $('#head1').show();
 });
 
   /*CONTACT US*/

@@ -1,0 +1,79 @@
+$(document).ready(function(){
+   $("#image1").click(function(){
+        $(this).hide();
+        $(".imageContent").hide();
+        $("#imageContent1").toggle();
+   });
+   $("#image2").click(function(){
+        $(this).hide();
+        $(".imageContent").hide();
+        $("#imageContent2").toggle();
+});
+    $("#image3").click(function(){
+        $(this).hide();
+        $(".imageContent").hide();
+        $("#imageContent3").toggle();
+});
+/*PORTFOLIO*/
+  $('#work1').hover(function(){
+      $(this).animate({
+          opacity:'toggle',
+          position:'relative'
+      })
+      $('#head1').show();
+  });
+  $('#work2').hover(function(){
+    $(this).animate({
+        opacity:'toggle',
+        position:'relative'
+    })
+    $('#head1').show();
+});
+$('#work3').hover(function(){
+    $(this).animate({
+        opacity:'toggle',
+        position:'relative'
+    })
+    $('#head1').show();
+});
+$('#work4').hover(function(){
+    $(this).animate({
+        opacity:'toggle',
+        position:'relative'
+    })
+    $('#head1').show();
+});
+$('#work5').hover(function(){
+    $(this).animate({
+        opacity:'toggle',
+        position:'relative'
+    })
+    $('#head1').show();
+});
+$('#work6').hover(function(){
+    $(this).animate({
+        opacity:'toggle',
+        position:'relative'
+    })
+    $('#head1').show();
+});
+$('#work7').hover(function(){
+    $(this).animate({
+        opacity:'toggle',
+        position:'relative'
+    })
+    $('#head1').show();
+});
+$('#work8').hover(function(){
+    $(this).animate({
+        opacity:'toggle',
+        position:'relative',
+        duration:2000
+        
+    },'slow');
+    $('#head1').show();
+});
+
+  
+  
+});

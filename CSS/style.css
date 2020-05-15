@@ -48,16 +48,17 @@ p{
     text-align: center;
     height: auto;
 }
-input[type=text] input[type=email] #comments {
-    background: transparent;
-    color: white;
-}
 #contact{
     color: white;
     position: absolute;
     top: 20%;
-    left: 35%;
+   left: 20%;
 }
+input[type=text], input[type=email], #comments {
+    background: transparent;
+    color: white;
+}
+
 /*#image{
     position: relative;
     background: rgba(0, 0, 0, 0.5);

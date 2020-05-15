@@ -41,59 +41,49 @@ $('#imageContent3').click(function(){
     $('#image3').fadeIn();
 })
 /*PORTFOLIO*/
-  $('#work1').hover(function(){
-      $(this).animate({
-          opacity:'toggle',
-          position:'relative'
-      })
-      $('#head1').show();
+$("#work1").mouseover(function(){
+    $("#head1").show();
+  }).mouseout(function(){
+    $("#head1").hide();
   });
-  $('#work2').hover(function(){
-    $(this).animate({
-        opacity:'toggle',
-        position:'relative'
-    })
-    $('#head1').show();
-});
-$('#work3').hover(function(){
-    $(this).animate({
-        opacity:'toggle',
-        position:'relative'
-    })
-    $('#head1').show();
-});
-$('#work4').hover(function(){
-    $(this).animate({
-        opacity:'toggle',
-        position:'relative'
-    })
-    $('#head1').show();
-});
-$('#work5').hover(function(){
-    $(this).animate({
-        opacity:'toggle',
-        position:'relative'
-    })
-    $('#head1').show();
-});
-$('#work6').hover(function(){
-    $(this).animate({
-        opacity:'toggle',
-        position:'relative'
-    })
-    $('#head1').show();
-});
-$('#work7').hover(function(){
-    $(this).animate({
-        opacity:'toggle',
-        position:'relative'
-    })
-    $('#head1').show();
-});
-$('#work8').hover(function(){
-    $(this).zoomIn();
-    $('#head1').show();
-});
+  $("#work2").mouseover(function(){
+    $("#head2").show();
+  }).mouseout(function(){
+    $("#head2").hide();
+  });
+
+  $("#work3").mouseover(function(){
+    $("#head3").show();
+  }).mouseout(function(){
+    $("#head3").hide();
+  });
+
+
+  $("#work4").mouseover(function(){
+    $("#head4").show();
+  }).mouseout(function(){
+    $("#head4").hide();
+  });
+$("#work5").mouseover(function(){
+    $("#head5").show();
+  }).mouseout(function(){
+    $("#head5").hide();
+  });
+  $("#work6").mouseover(function(){
+    $("#head6").show();
+  }).mouseout(function(){
+    $("#head6").hide();
+  });
+  $("#work7").mouseover(function(){
+    $("#head7").show();
+  }).mouseout(function(){
+    $("#head7").hide();
+  });
+  $("#work8").mouseover(function(){
+    $("#head8").show();
+  }).mouseout(function(){
+    $("#head8").hide();
+  });
 
   /*CONTACT US*/
   $('#send').click(function(){

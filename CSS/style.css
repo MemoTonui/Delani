@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda&family=Montserrat:wght@900&family=Noto+Serif:wght@400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -13,18 +16,34 @@
 #mouse-click {
     margin-bottom: 20px;
 }
+#image1, #image2,#image3 {
+    margin-left: 100px;
+    padding: 20px;
+}
 
 
 #heading{
-    font-weight: 1200;
+   
     color: white;
     text-transform: uppercase;
     position: absolute;
+    font-family: 'Noto Serif', serif;
+    text-shadow: 4px 4px 4px #aaa;
+    font-weight: bolder;
     top: 40%;
-    left:33%;
+    left: 27%;
+    letter-spacing: 0.1em;
 
     
 }
+h2{
+    font-family: 'Noto Serif', serif;
+    text-shadow: 4px 4px 4px #aaa;
+    font-weight: bolder;
+    margin: 20px;
+
+}
+
 .img2{
     background-image: url('../Images/backgrounds/s_image.jpg');
     background-position: center center;
@@ -33,12 +52,15 @@
     color: white;
     width: 100%;
     height: auto;
+
 }
 .col-md-12{
     margin-top: 30px;
 }
 body,html {
     height: 100%;
+    font-family: 'Merienda', cursive;
+    font-size: 18px;
 }
 p{
     margin-top: 20px;
@@ -62,6 +84,7 @@ p{
     width: 30%;
     text-align: center;
     height: auto;
+    margin-left: 35%;
 }
 .img3{
     background-image: url('../Images/backgrounds/c_image.jpg');

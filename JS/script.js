@@ -1,24 +1,6 @@
-
-function validate(){
-    var name = document.getElementById('name').value;
-    var email = document.getElementById('email').value;
-    var comments = document.getElementById('comments').value;
-
-    if(name == "" || email=="" || comments==""){
-        alert("Kindly fill in all inputs if you want to contact us.");
-    }
-    else{
-        alert( name+ " Thank you for contacting us. Your response has been received.We will get back to you in a few.");
-        
-    }
-}
-
-
-
 $(document).ready(function(){
    $("#image1").click(function(){
         $(this).fadeOut();
-        
         $("#imageContent1").fadeIn();
    });
    $('#imageContent1').click(function(){
@@ -96,4 +78,17 @@ $("#work5").mouseover(function(){
      
   });  
 });
+function validate(){
+  var name = document.getElementById('name').value;
+  var email = document.getElementById('email').value;
+  var comments = document.getElementById('comments').value;
+
+  if(name == "" || email=="" || comments==""){
+      alert("Kindly fill in all inputs if you want to contact us.");
+  }
+  else{
+      alert( name+ " Thank you for contacting us. Your response has been received.We will get back to you in a few.");
+      
+  }
+}
 

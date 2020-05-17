@@ -9,8 +9,12 @@ function validate(){
     }
     else{
         alert( name+ " Thank you for contacting us. Your response has been received.We will get back to you in a few.");
+        
     }
 }
+
+
+
 $(document).ready(function(){
    $("#image1").click(function(){
         $(this).fadeOut();
@@ -40,10 +44,7 @@ $('#imageContent3').click(function(){
     $(this).fadeOut();
     $('#image3').fadeIn();
 })
-/*Mouse Click*/
-$(".mouse_click").mouseover(function(){
-    $(this).effect( "shake", {times:4}, 1000 );
- });
+
 /*PORTFOLIO*/
 $("#work1").mouseover(function(){
     $("#head1").show();

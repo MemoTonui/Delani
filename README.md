@@ -25,7 +25,8 @@ Linda Tonui
 - Open index.html on the browser
 
 ## Bugs And Errors
-Incase of any don't hesitate to reach out to me
+The mail chimp embedded code is not working.
+Incase you know how to fix it,  don't hesitate to reach out to me.
 
  ## Collaboration
 To collaborate with me please reach out using the following email address.

@@ -1,5 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Merienda&family=Montserrat:wght@900&family=Noto+Serif:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
 
 * {
     margin: 0;
@@ -11,39 +13,43 @@
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
+  max-width: 100%;
+  height: 100% ;
 
 }
-#mouse-click {
-    margin-bottom: 20px;
-}
-#image1, #image2,#image3 {
-    margin-left: 100px;
-    padding: 20px;
-}
-
-
 #heading{
-   
-    color: white;
     text-transform: uppercase;
-    position: absolute;
     font-family: 'Noto Serif', serif;
     text-shadow: 4px 4px 4px #aaa;
     font-weight: bolder;
-    top: 40%;
-    left: 27%;
     letter-spacing: 0.1em;
-
-    
+    margin-top: 15%;    
 }
+#mouse-click {
+    padding: 30px;
+    animation: shake 1s infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
 h2{
     font-family: 'Noto Serif', serif;
     text-shadow: 4px 4px 4px #aaa;
     font-weight: bolder;
     margin: 20px;
-
 }
-
 .img2{
     background-image: url('../Images/backgrounds/s_image.jpg');
     background-position: center center;
@@ -51,24 +57,25 @@ h2{
     background-repeat: no-repeat;
     color: white;
     width: 100%;
-    height: auto;
-
+    height:auto;
 }
 .col-md-12{
     margin-top: 30px;
 }
+#image1, #image2,#image3 {
+    margin-left: 100px;
+    padding: 20px;
+}
 body,html {
     height: 100%;
-    font-family: 'Merienda', cursive;
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
 }
 p{
     margin-top: 20px;
 }
 #content{
-    width: 100%;
     color: white;
-
 }
 .portfolio img{
     margin: 10px;
@@ -104,20 +111,15 @@ input[type=text], input[type=email], #comments {
     background: transparent;
     color: white;
 }
-
-/*#image{
-    position: relative;
-    background: rgba(0, 0, 0, 0.5);
-}
-#image .over{
-    border: solid white 1px;
-    background: rgba(0, 0, 0, 0.5);
-    position: absolute;
-    top: 20%;
-}*/
 .imageContent{
     display: none;
    padding: 5px;
+}
+.col-md-4{
+    margin-top: 40px;
+}
+h5{
+    margin-top: 30px;
 }
 
 .portfolio{
@@ -144,4 +146,13 @@ input[type=text], input[type=email], #comments {
 }
 footer{
     margin-top: 50px;
+}
+@media screen and (max-width:800px){
+    .row {
+        margin-top: 30px;
+    }
+    #image1, #image2,#image3  {
+        margin-left:unset;
+    }
+
 }
